@@ -1,0 +1,55 @@
+#logo{
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item img{
+    background-size: contain;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-item {
+        height: 300px;
+    }
+
+    .carousel-item .carousel-caption h5 {
+        font-size: 1.75em;
+    }
+
+    .carousel-item .carousel-caption p {
+        font-size: 1.5em;
+    }
+}
+
+
+.img-quienes-somos{
+    width: 100%;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.section-tittle{
+    border-bottom: 2px solid #ffff;
+}
+
+.testimonial{
+    justify-content: space-between;
+    color: #dad18c;
+    text-align: center;
+}
+.img__testimonios{
+    border-radius: 50%;
+}
+
+.modal-body{
+    color: black;
+}
+
+.modal-header{
+    color: white;
+}
